@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+  .header {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.body{
+  margin: 0;
+  padding: 20%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.hero-banner div h1 span{
+  display: inline;
+  background-color: rgb(62, 193, 193);
+}
+.hero-banner div{
+  padding: 8%;
+  display: flex;
+  justify-content: end;
+  color:black;
+  font-size:150%;
+  background-image: url(../images/02-hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*-- main logo / nav*/
+.flex-container {
+  display: grid;
+  grid-template-columns: 60% 10% 10% 10% 10%;
+  background-size: 80%;
+  background-color: #05111a;
+  text-align:left;
+  font-size: 80%;
+  margin: 0%;
+  padding: 5%;
+}
+.flex-container h1 span{
+  -webkit-text-fill-color:black;
+  background-color: rgb(9, 75, 75);;
+  text-align: left;
+  text-wrap:wrap;
+}
+.flex-container ul{
+  text-align: center;
+  
+}
+
+<!-- portfolio container -->
+#work{
+  display: grid;
+ padding: 10px;
+  margin: auto;
+}
+.flex {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+ padding: 5px;
+  gap: 10px;
+  margin: auto;
+}
+@media only screen and(max-width:1000px)
+@media only screen and(max-width:600px)
+  
